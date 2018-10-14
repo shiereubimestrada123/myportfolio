@@ -139,6 +139,10 @@
     margin-bottom: 40px;
 }
 
+#aboutpart {
+    min-height: 100vh;
+}
+
 #about {
     margin-top: -50px;
 }
@@ -162,6 +166,11 @@
     color: #A9A9A9;
     font-family: 'Cairo', sans-serif;
     padding-top: 50px;
+}
+
+#skillspart {
+    background-color: #1E352F;
+    min-height: 110vh;
 }
 
 .skillsimg {
@@ -309,6 +318,15 @@
         width: 100%;
     }
 
+    #skillspart {
+        background-color: #1E352F;
+        min-height: 55vh;
+    }
+
+    #aboutpart {
+        min-height: 55vh;
+    }
+
 }
 
 /*for ipad*/
@@ -383,6 +401,15 @@
         margin-top: -60px;
     }
 
+    #skillspart {
+        background-color: #1E352F;
+        min-height: 70vh;
+    }
+
+    #aboutpart {
+        min-height: 55vh;
+    }
+
 }
 
 /*mobile */
@@ -420,10 +447,6 @@
     .progress {
         width: 90%!important;
         margin-left: 20px;
-    }
-
-    #about{
-        height: 10vh;
     }
 
     #socialparent {
