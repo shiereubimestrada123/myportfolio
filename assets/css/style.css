@@ -169,14 +169,25 @@
 }
 
 #skillspart {
-    background-color: #1E352F;
-    min-height: 110vh;
+    background-color: #585858;
+    min-height: 100vh;
+}
+
+#skillspart h2 {
+  color: #fff;
+}
+
+#skillspart .parent-skill {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .skillsimg {
     margin-top: 20px;
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
 }
 
 #skillsimgmdb {
@@ -246,7 +257,7 @@
 
 #contactme {
     font-size: 4em;
-    color: #A9A9A9;
+    color: #fff;
     font-family: 'Cairo', sans-serif;
 }
 
@@ -433,7 +444,7 @@
     #imgportfolio {
         width: 100%;
     }
-       
+
 
     #mobileabout{
         margin-top: 100vh;
@@ -485,8 +496,8 @@
         transition: all .2s;
     }
 
-    #myname {        
-        font-size: 2em;        
+    #myname {
+        font-size: 2em;
     }
 
     .nameContent {
@@ -533,7 +544,7 @@
         margin-top: -60px;
     }
 
-} 
+}
 
 @media only screen and (max-width: 320px) {
 
@@ -578,8 +589,8 @@
         transition: all .2s;
     }
 
-    #myname {        
-        font-size: 2em;        
+    #myname {
+        font-size: 2em;
     }
 
     .nameContent {
